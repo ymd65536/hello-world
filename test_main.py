@@ -13,3 +13,5 @@ class TestGreet(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+    def test_greet(self):
+        self.assertEqual(greet("World"), "Hello, World!")
